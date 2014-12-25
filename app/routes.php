@@ -15,3 +15,6 @@ Route::get('/', function()
 {
 	return View::make('homepage');
 });
+
+
+Route::resource('babe', 'BabeController');

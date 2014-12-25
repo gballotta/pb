@@ -15,7 +15,7 @@
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
 						Babes <span class="caret"></span>
 						<ul class="dropdown-menu" role="menu">
-							<li><a href="#"><span class="glyphicon glyphicon-plus"></span> Add a new Babe</a></li>
+							<li><a href="/babe/create"><span class="glyphicon glyphicon-plus"></span> Add a new Babe</a></li>
 							<li><a href="#"><span class="glyphicon glyphicon-search"></span> Search a Babe</a></li>
 							<li><a href="#"><span class="glyphicon glyphicon-list"></span> Show all Babes</a></li>
 							<li><a href="#"><span class="glyphicon glyphicon-thumbs-up"></span> I am feeling lucky!</a></li>
