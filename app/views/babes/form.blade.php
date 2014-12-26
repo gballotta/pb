@@ -33,6 +33,11 @@
 	<a href="#" class="btn btn-primary" id="tette">Convert from inches to centimeters</a>
 </div>
 <div class="form-group">
+	{{ Form::label('breastsize', 'Breasts size (cup)') }}
+	{{ Form::text('breastsize', '', array('class' => 'form-control',
+	                                     'placeholder' => 'Single digit cup size')) }}
+</div>
+<div class="form-group">
 	{{ Form::label('waist', 'Waist (centimeters)') }}
 	{{ Form::number('waist', '', array('class' => 'form-control',
 	                                     'id' => 'misuravita')) }}
@@ -43,4 +48,20 @@
 	{{ Form::number('hips', '', array('class' => 'form-control',
 	                                     'id' => 'misurafianchi')) }}
 	<a href="#" class="btn btn-primary" id="fianchi">Convert from inches to centimeters</a>
+</div>
+<div class="form-group">
+	{{ Form::label('shoesize', 'Shoe size') }}
+	{{ Form::number('shoesize', '', array('class' => 'form-control')) }}
+</div>
+<div class="form-group">
+	{{ Form::label('naturalboobs', 'Natural boobs') }}
+	{{ Form::checkbox('naturalboobs', true, true, array('class' => 'checkbox')) }}
+</div>
+<div class="form-group">
+	{{ Form::label('fucks', 'Fucks') }}
+	{{ Form::checkbox('fucks', true, true, array('class' => 'checkbox')) }}
+</div>
+<div class="form-group">
+	{{ Form::label('photofile', 'Profile pic') }}
+	{{ Form::file('photofile') }}
 </div>
